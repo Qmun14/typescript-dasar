@@ -1,15 +1,3 @@
-# Bicara TypeScript
-
-This repo contain resource of Bicara Typescript.
-[Youtube Series for Learn Typescript](https://www.youtube.com/SastraNababan?sub_confirmation=1)
-
-
-**Branches :**
-
-`master` : [starter code](https://github.com/SastraNababan/bicara-typescript/tree/master)
-
-`finish` : [finish code](https://github.com/SastraNababan/bicara-typescript/tree/finish)
-
 ## 1. JavaScript vs TypeScript Types
 
 |     | Javascript | Typescript   |
@@ -32,31 +20,31 @@ This repo contain resource of Bicara Typescript.
 
 **Notes :**
 
-- 1-6 are Primitive Data Types
-- All primitives are immutable. A primitive is not an object and has no methods of its own.
-- Null is special primitive
-- All types in TypeScript are subtypes of a single top type called the Any type.
+-   1-6 are Primitive Data Types
+-   All primitives are immutable. A primitive is not an object and has no methods of its own.
+-   Null is special primitive
+-   All types in TypeScript are subtypes of a single top type called the Any type.
 
 ### Exercises :
 
-- [ ] Evaluate all JavaScript Types
-- [ ] undefined vs null vs not defined
-- [ ] Cons & Pros Dynamic Type
+-   [ ] Evaluate all JavaScript Types
+-   [ ] undefined vs null vs not defined
+-   [ ] Cons & Pros Dynamic Type
 
 ## 2. Typescript Types
 
 How to declare typescript type :
 
-- Type inference ( implicit ) `let ti = "hello"`
-- Type annotations ( explicit ) `let ta:string = "hello ts"`
+-   Type inference ( implicit ) `let ti = "hello"`
+-   Type annotations ( explicit ) `let ta:string = "hello ts"`
 
 ### Exercises :
 
-- [ ] Convert all JavaScript Types to TypeScript
-- [ ] Function Type
-- [ ] Union Type `|`
-- [ ] Type Aliases
-- [ ] Setup Environtment ( eslint, prettier )
+-   [ ] Convert all JavaScript Types to TypeScript
+-   [ ] Function Type
+-   [ ] Union Type `|`
+-   [ ] Type Aliases
+-   [ ] Setup Environtment ( eslint, prettier )
 
 ## 3. Array & Tuples
 
@@ -73,13 +61,13 @@ There are few ways to declare an array:
 
 ### Exercises :
 
-- [ ] Array of Number
-- [ ] Array of String
-- [ ] Array with Union
-- [ ] Tuple
-- [ ] Array of Object
-- [ ] Array multidimensional
-- [ ] Destructuring
+-   [ ] Array of Number
+-   [ ] Array of String
+-   [ ] Array with Union
+-   [ ] Tuple
+-   [ ] Array of Object
+-   [ ] Array multidimensional
+-   [ ] Destructuring
 
 ## 4. Object
 
@@ -87,12 +75,12 @@ Object is a type that represents the non-primitive type, i.e. anything that is n
 
 ### Exercises :
 
-- [ ] Object Literal
-- [ ] Nested Object
-- [ ] Nested, Object of Array
-- [ ] Nested, Object of Object ( Dynamic Properties)
-- [ ] Destructuring
-- [ ] Utility Types ( `ReadOnly, Record` )
+-   [ ] Object Literal
+-   [ ] Nested Object
+-   [ ] Nested, Object of Array
+-   [ ] Nested, Object of Object ( Dynamic Properties)
+-   [ ] Destructuring
+-   [ ] Utility Types ( `ReadOnly, Record` )
 
 ## 5. Functions
 
@@ -100,18 +88,18 @@ Functions are the building blocks of readable, maintainable, and reusable code. 
 
 ### Exercises :
 
-- [ ] function basic : declaration,expression, arrow
-- [ ] optional & default parameters
-- [ ] rest parameter
-- [ ] conditional type with union, generic, overloads
+-   [ ] function basic : declaration,expression, arrow
+-   [ ] optional & default parameters
+-   [ ] rest parameter
+-   [ ] conditional type with union, generic, overloads
 
 ## 6. Classes
 
-- [ ] class basic : constructor, properties, method
-- [ ] access modifiers (private, public, private)
-- [ ] inheritance / sub-class
-- [ ] static member
-- [ ] abstract classes
+-   [ ] class basic : constructor, properties, method
+-   [ ] access modifiers (private, public, private)
+-   [ ] inheritance / sub-class
+-   [ ] static member
+-   [ ] abstract classes
 
 | access modifier | class | sub-class | instance |
 | --------------- | ----- | --------- | -------- |
@@ -123,19 +111,20 @@ Functions are the building blocks of readable, maintainable, and reusable code. 
 
 | Feature              | Interface | Type |
 | -------------------- | --------- | ---- |
-| aliases              | ❌         | ✅    |
-| object               | ✅         | ✅    |
-| merge                | ✅         | ❌    |
-| Intersection & Union | ❌         | ✅    |
-| implementes          | ✅         | ✅    |
-| extend               | ✅         | ❌    |
+| aliases              | ❌        | ✅   |
+| object               | ✅        | ✅   |
+| merge                | ✅        | ❌   |
+| Intersection & Union | ❌        | ✅   |
+| implementes          | ✅        | ✅   |
+| extend               | ✅        | ❌   |
 
 ## 8. Advanced Type
-- [ ] Partial `Partial<T>`
-- [ ] Required `Required<T>`
-- [ ] Readonly  `Readonly<T>`
-- [ ] Pick `Pick<T, K>`
-- [ ] Omit `Omit<T, K>`
-- [ ] Record `Record<K,T>`
-- [ ] Extract `Extract<T, U>`
-- [ ] Exclude `Exclude<T,U>`
+
+-   [ ] Partial `Partial<T>`
+-   [ ] Required `Required<T>`
+-   [ ] Readonly `Readonly<T>`
+-   [ ] Pick `Pick<T, K>`
+-   [ ] Omit `Omit<T, K>`
+-   [ ] Record `Record<K,T>`
+-   [ ] Extract `Extract<T, U>`
+-   [ ] Exclude `Exclude<T,U>`
