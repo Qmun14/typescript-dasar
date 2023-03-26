@@ -126,4 +126,8 @@ class People2 implements Person2 {
     }
 
 }
+
+let myOrang = new People2("joko", 2);
+console.log(myOrang)
+
 // ?kesimpulannya untuk  Extends itu 'type' tidak bisa diimplementasikan

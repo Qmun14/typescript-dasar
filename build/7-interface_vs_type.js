@@ -35,3 +35,5 @@ class People2 {
         return "Bagus Sekalii";
     }
 }
+let myOrang = new People2("joko", 2);
+console.log(myOrang);
